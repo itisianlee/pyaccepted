@@ -1,10 +1,3 @@
-# pyaccepted
-
-                                            __           __
-    ____  __  ______ ______________  ____  / /____  ____/ /
-   / __ \/ / / / __ `/ ___/ ___/ _ \/ __ \/ __/ _ \/ __  / 
-  / /_/ / /_/ / /_/ / /__/ /__/  __/ /_/ / /_/  __/ /_/ /  
- / .___/\__, /\__,_/\___/\___/\___/ .___/\__/\___/\__,_/   
-/_/    /____/                    /_/                       
-
-- algorithm & leetcode with PYTHON
+# pyaccepted                  
+![pyac](./resources/pyacicon.png)
+- algorithm & leetcode with python
