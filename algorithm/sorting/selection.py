@@ -1,4 +1,6 @@
-def selectionsort(arr):
+from datastruct import ListNode, createlink, traverse
+
+def selectionsort_a(arr):
     l = len(arr)
     for i in range(l):
         minidx = i
@@ -8,8 +10,24 @@ def selectionsort(arr):
         arr[i], arr[minidx] = arr[minidx], arr[i]
 
 
+def selectionsort_l1(head):
+    p = head
+    while p:
+        q = p
+        minnode = q
+        while q:
+            if q.val < minnode.val:
+                minnode = q
+            q = q.next
+        p.val, minnode.val = minnode.val, p.val
+        p = p.next
+
+
 if __name__ == '__main__':
     arr = [3, 1, 5, 10, 2, 8, 6]
-    selectionsort(arr)
+    # selectionsort_a(arr)
+    head = createlink(arr)
+    selectionsort_l1(head)
+    traverse(head)
 
         
