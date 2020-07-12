@@ -12,6 +12,7 @@ def shellsort(arr):
             arr[j] = cur
         gap = gap // 2
 
+# shell sort 涉及步长，不适合链表的操作，没有链表的shell sort
 
 if __name__ == '__main__':
     arr = [3, 1, 5, 10, 2, 8, 6]
