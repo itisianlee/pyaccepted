@@ -7,5 +7,7 @@
 - sorting
   - [x] insertion sort
   - [x] selection sort
-- datastruct
-  - [x] Singly linked list
+  - [x] bubble sort
+  - [x] shell sort
+## datastruct
+- [x] Singly linked list
