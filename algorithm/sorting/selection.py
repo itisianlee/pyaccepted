@@ -1,4 +1,6 @@
-from datastruct import ListNode, createlink, traverse
+import ipt
+from algorithm.datastruct import ListNode, createlink, traverse
+
 
 def selectionsort_a(arr):
     l = len(arr)
