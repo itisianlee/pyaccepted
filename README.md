@@ -12,3 +12,4 @@
   - [x] merge sort
 ## datastruct
 - [x] Singly linked list
+- [x] Minheap & Maxheap
