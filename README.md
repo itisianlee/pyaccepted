@@ -9,5 +9,6 @@
   - [x] selection sort
   - [x] bubble sort
   - [x] shell sort
+  - [x] merge sort
 ## datastruct
 - [x] Singly linked list
