@@ -17,7 +17,7 @@ def createlink(arr=None):
 def traverse(head):
     if head is None:
         return
-    p = head 
+    p = head
     while p:
-        print(p.val)
+        print(p.val, end=' ')
         p = p.next
